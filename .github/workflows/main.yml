@@ -35,4 +35,4 @@ jobs:
           push: true
           tags: 
             latorudo/rotten-potatoes:latest
-            latorudo/rotten-potatoes:$(( github.run_number ))
+            latorudo/rotten-potatoes:${{ github.run_number }}
